@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QGroupBox" name="gbProject">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>100</height>
+       </size>
+      </property>
+      <property name="title">
+       <string>Project</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,1,1,1">
+       <item>
+        <widget class="QLabel" name="lBenchMark">
+         <property name="text">
+          <string>Bench Mark</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="cbBenchMark">
+         <item>
+          <property name="text">
+           <string>Ice Storm</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Ice Storm Extreme</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Cloud Gate</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Time Spy</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Time Spy Extreme</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Steel Nomad</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Steel Nomad Light</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Fire Strike</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Fire Strike Extreme</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Fire Strike Ultra</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Wild Life</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Wild Life Extreme</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Night Raid</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>CPU Profile</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lGPU">
+         <property name="text">
+          <string>GPU</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="cbGPU"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_24">
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_20">
+       <item>
+        <widget class="QGroupBox" name="gbTestMode">
+         <property name="title">
+          <string>Test Mode</string>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_22" stretch="1,1">
+          <item>
+           <widget class="QRadioButton" name="rbDefault">
+            <property name="text">
+             <string>Defalut</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="rbCustom">
+            <property name="text">
+             <string>Custom</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_26">
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_21" stretch="1,1">
+          <item>
+           <widget class="QLabel" name="lDemo">
+            <property name="text">
+             <string>Include Demo</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="bDemo">
+            <property name="text">
+             <string>No</string>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_11">
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_9" stretch="1,1">
+       <item>
+        <widget class="QGroupBox" name="groupBox_12">
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QGroupBox" name="gbTests">
+            <property name="title">
+             <string>Tests</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <item>
+              <widget class="QGroupBox" name="groupBox_14">
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_10">
+                <item>
+                 <widget class="QLabel" name="lGraphicTest_1">
+                  <property name="text">
+                   <string>Graphic test 1</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="bGraphicTest_1">
+                  <property name="text">
+                   <string>YES</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_15">
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_11">
+                <item>
+                 <widget class="QLabel" name="lGraphicTest_2">
+                  <property name="text">
+                   <string>Graphic test 2</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="bGraphicTest_2">
+                  <property name="text">
+                   <string>YES</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_16">
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_12">
+                <item>
+                 <widget class="QLabel" name="lPhysicsTest">
+                  <property name="text">
+                   <string>Physics test</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="bPhysicsTest">
+                  <property name="text">
+                   <string>YES</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="gbOptions">
+            <property name="title">
+             <string>Options</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_2">
+             <item>
+              <widget class="QGroupBox" name="groupBox_8">
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="1,1">
+                <item>
+                 <widget class="QLabel" name="lWindowMode">
+                  <property name="text">
+                   <string>Enable window mode</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="bWindowMode">
+                  <property name="text">
+                   <string>NO</string>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_9">
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="1,1">
+                <item>
+                 <widget class="QLabel" name="lVerticaSync">
+                  <property name="text">
+                   <string>Enable vertical sync</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="bVerticalSync">
+                  <property name="text">
+                   <string>NO</string>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_10">
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="1,1">
+                <item>
+                 <widget class="QLabel" name="lTripleBuffering">
+                  <property name="text">
+                   <string>Enable triple buffering</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="bTripleBuffering">
+                  <property name="text">
+                   <string>NO</string>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_7">
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="1,1">
+                <item>
+                 <widget class="QLabel" name="lWireFrame">
+                  <property name="text">
+                   <string>Enable wireframe</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="bWireFrame">
+                  <property name="text">
+                   <string>NO</string>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_6">
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="1,1">
+                <item>
+                 <widget class="QLabel" name="lFixedFPS">
+                  <property name="text">
+                   <string>Enable fixed FPS</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="bFixedFPS">
+                  <property name="text">
+                   <string>NO</string>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_5">
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="1,1">
+                <item>
+                 <widget class="QLabel" name="lFPS">
+                  <property name="text">
+                   <string>FPS (fixed timeline step)</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSpinBox" name="sbFPS">
+                  <property name="enabled">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Orientation::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_13">
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QGroupBox" name="gbSettings">
+            <property name="title">
+             <string>Settings</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <item>
+              <widget class="QGroupBox" name="groupBox_17">
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_13" stretch="1,1">
+                <item>
+                 <widget class="QLabel" name="lResolution">
+                  <property name="text">
+                   <string>Resolution</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QComboBox" name="cbResolution">
+                  <property name="currentIndex">
+                   <number>10</number>
+                  </property>
+                  <item>
+                   <property name="text">
+                    <string>640 * 480 (4:3) (480p)</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>720 * 400</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>720 * 480</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>720 * 576 (5:4) (576p)</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>800 * 600 (4:3)</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1024 * 600</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1024 * 768 (4:3)</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1152 * 864 (4:3)</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1176 * 664</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1200 * 960 (5:4)</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1280 * 720 (16:9) (720p)</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1280 * 768</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1280 * 800</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1280 * 960 (4:3)</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1280 * 1024 (5:4)</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1360 * 768</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1366 * 768</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1440 * 480</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1440 * 900</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1600 * 900 (16:9)</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1600 * 1024</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1600 * 1200 (4:3)</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1680 * 1050</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1768 * 992</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1920 * 1080 (16:9) (1080p)</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1920 * 1200</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1920 * 1440 (4:3)</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>2048 * 1152 (16:9)</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>2048 * 1280</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>2160 * 1440</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>2560 * 1080 (21:9)</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>2560 * 1440 (16:9) (1440p)</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>2560 * 1600</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>3200 * 1800 (16:9)</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>3440 * 1440 (21:9)</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>3840 * 2160 (16:9) (4k)</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>3840 * 2400</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>4096 * 2304 (16:9)</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>5120 * 2160 (21:9)</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>5120 * 2880 (16:9)</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>7680 * 4320 (16:9)</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>8192 * 4608 (16:9)</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_18">
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_14" stretch="1,1">
+                <item>
+                 <widget class="QLabel" name="lTextureFilteringMode">
+                  <property name="text">
+                   <string>Texture filtering mode</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QComboBox" name="cbTextureFilteringMode">
+                  <property name="currentIndex">
+                   <number>1</number>
+                  </property>
+                  <item>
+                   <property name="text">
+                    <string>Bilinear</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Trilinear</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Anisotropic</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_19">
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_15" stretch="10,10,3">
+                <item>
+                 <widget class="QLabel" name="lMaxAFAnistropy">
+                  <property name="text">
+                   <string>Max AF anisotropy</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="sMaxAFAnistropy">
+                  <property name="enabled">
+                   <bool>false</bool>
+                  </property>
+                  <property name="maximum">
+                   <number>3</number>
+                  </property>
+                  <property name="pageStep">
+                   <number>10</number>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Orientation::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="vMaxAFAnistropy">
+                  <property name="text">
+                   <string>2</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_21">
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_17" stretch="10,10,3">
+                <item>
+                 <widget class="QLabel" name="lMSAASampleCount">
+                  <property name="text">
+                   <string>MSAA sample count</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="sMSAASampleCount">
+                  <property name="maximum">
+                   <number>3</number>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Orientation::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="vMSAASampleCount">
+                  <property name="text">
+                   <string>1</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_20">
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_16" stretch="10,10,3">
+                <item>
+                 <widget class="QLabel" name="lShadowmapSize">
+                  <property name="text">
+                   <string>Shadowmap size</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="sShadowmapSize">
+                  <property name="maximum">
+                   <number>2</number>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Orientation::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="vShadowmapSize">
+                  <property name="text">
+                   <string>1024</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_22">
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_18" stretch="10,10,3">
+                <item>
+                 <widget class="QLabel" name="lBloomQuality">
+                  <property name="text">
+                   <string>Bloom quality</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="sBloomQuality">
+                  <property name="maximum">
+                   <number>1</number>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Orientation::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="vBloomQuality">
+                  <property name="text">
+                   <string>1</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_23">
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_19" stretch="10,10,3">
+                <item>
+                 <widget class="QLabel" name="lTextureQuality">
+                  <property name="text">
+                   <string>Texture quality</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="sTextureQuality">
+                  <property name="maximum">
+                   <number>1</number>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Orientation::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="vTextureQuality">
+                  <property name="text">
+                   <string>1</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <spacer name="verticalSpacer">
+               <property name="orientation">
+                <enum>Qt::Orientation::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOption">
+    <property name="title">
+     <string>Option</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+   </widget>
+   <addaction name="menuOption"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
