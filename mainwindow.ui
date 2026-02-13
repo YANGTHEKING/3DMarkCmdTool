@@ -7,11 +7,14 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>600</height>
+    <height>863</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -172,7 +175,7 @@
              <string>No</string>
             </property>
             <property name="checkable">
-             <bool>true</bool>
+             <bool>false</bool>
             </property>
            </widget>
           </item>
@@ -202,6 +205,11 @@
             <layout class="QVBoxLayout" name="verticalLayout_5">
              <item>
               <widget class="QGroupBox" name="groupBox_14">
+               <property name="styleSheet">
+                <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+               </property>
                <property name="title">
                 <string/>
                </property>
@@ -225,6 +233,11 @@
              </item>
              <item>
               <widget class="QGroupBox" name="groupBox_15">
+               <property name="styleSheet">
+                <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+               </property>
                <property name="title">
                 <string/>
                </property>
@@ -248,6 +261,11 @@
              </item>
              <item>
               <widget class="QGroupBox" name="groupBox_16">
+               <property name="styleSheet">
+                <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+               </property>
                <property name="title">
                 <string/>
                </property>
@@ -279,7 +297,12 @@
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_2">
              <item>
-              <widget class="QGroupBox" name="groupBox_8">
+              <widget class="QGroupBox" name="gbWindowMode">
+               <property name="styleSheet">
+                <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+               </property>
                <property name="title">
                 <string/>
                </property>
@@ -297,7 +320,7 @@
                    <string>NO</string>
                   </property>
                   <property name="checkable">
-                   <bool>true</bool>
+                   <bool>false</bool>
                   </property>
                  </widget>
                 </item>
@@ -305,7 +328,12 @@
               </widget>
              </item>
              <item>
-              <widget class="QGroupBox" name="groupBox_9">
+              <widget class="QGroupBox" name="gbVerticaSync">
+               <property name="styleSheet">
+                <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+               </property>
                <property name="title">
                 <string/>
                </property>
@@ -323,7 +351,7 @@
                    <string>NO</string>
                   </property>
                   <property name="checkable">
-                   <bool>true</bool>
+                   <bool>false</bool>
                   </property>
                  </widget>
                 </item>
@@ -331,7 +359,12 @@
               </widget>
              </item>
              <item>
-              <widget class="QGroupBox" name="groupBox_10">
+              <widget class="QGroupBox" name="gbTripleBuffering">
+               <property name="styleSheet">
+                <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+               </property>
                <property name="title">
                 <string/>
                </property>
@@ -349,7 +382,7 @@
                    <string>NO</string>
                   </property>
                   <property name="checkable">
-                   <bool>true</bool>
+                   <bool>false</bool>
                   </property>
                  </widget>
                 </item>
@@ -357,7 +390,12 @@
               </widget>
              </item>
              <item>
-              <widget class="QGroupBox" name="groupBox_7">
+              <widget class="QGroupBox" name="gbWireFrame">
+               <property name="styleSheet">
+                <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+               </property>
                <property name="title">
                 <string/>
                </property>
@@ -375,7 +413,7 @@
                    <string>NO</string>
                   </property>
                   <property name="checkable">
-                   <bool>true</bool>
+                   <bool>false</bool>
                   </property>
                  </widget>
                 </item>
@@ -383,7 +421,12 @@
               </widget>
              </item>
              <item>
-              <widget class="QGroupBox" name="groupBox_6">
+              <widget class="QGroupBox" name="gbFixedFPS">
+               <property name="styleSheet">
+                <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+               </property>
                <property name="title">
                 <string/>
                </property>
@@ -401,7 +444,7 @@
                    <string>NO</string>
                   </property>
                   <property name="checkable">
-                   <bool>true</bool>
+                   <bool>false</bool>
                   </property>
                  </widget>
                 </item>
@@ -409,7 +452,12 @@
               </widget>
              </item>
              <item>
-              <widget class="QGroupBox" name="groupBox_5">
+              <widget class="QGroupBox" name="gbFPS">
+               <property name="styleSheet">
+                <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+               </property>
                <property name="title">
                 <string/>
                </property>
@@ -463,7 +511,12 @@
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_6">
              <item>
-              <widget class="QGroupBox" name="groupBox_17">
+              <widget class="QGroupBox" name="gbResolution">
+               <property name="styleSheet">
+                <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+               </property>
                <property name="title">
                 <string/>
                </property>
@@ -478,31 +531,31 @@
                 <item>
                  <widget class="QComboBox" name="cbResolution">
                   <property name="currentIndex">
-                   <number>10</number>
+                   <number>0</number>
                   </property>
                   <item>
                    <property name="text">
-                    <string>640 * 480 (4:3) (480p)</string>
+                    <string>640   * 480   (4:3)   (480p)</string>
                    </property>
                   </item>
                   <item>
                    <property name="text">
-                    <string>720 * 400</string>
+                    <string>720   * 400</string>
                    </property>
                   </item>
                   <item>
                    <property name="text">
-                    <string>720 * 480</string>
+                    <string>720   * 480</string>
                    </property>
                   </item>
                   <item>
                    <property name="text">
-                    <string>720 * 576 (5:4) (576p)</string>
+                    <string>720   * 576   (5:4)   (576p)</string>
                    </property>
                   </item>
                   <item>
                    <property name="text">
-                    <string>800 * 600 (4:3)</string>
+                    <string>800   * 600   (4:3)</string>
                    </property>
                   </item>
                   <item>
@@ -512,12 +565,12 @@
                   </item>
                   <item>
                    <property name="text">
-                    <string>1024 * 768 (4:3)</string>
+                    <string>1024 * 768   (4:3)</string>
                    </property>
                   </item>
                   <item>
                    <property name="text">
-                    <string>1152 * 864 (4:3)</string>
+                    <string>1152 * 864   (4:3)</string>
                    </property>
                   </item>
                   <item>
@@ -527,12 +580,12 @@
                   </item>
                   <item>
                    <property name="text">
-                    <string>1200 * 960 (5:4)</string>
+                    <string>1200 * 960   (5:4)</string>
                    </property>
                   </item>
                   <item>
                    <property name="text">
-                    <string>1280 * 720 (16:9) (720p)</string>
+                    <string>1280 * 720   (16:9) (720p)</string>
                    </property>
                   </item>
                   <item>
@@ -547,7 +600,7 @@
                   </item>
                   <item>
                    <property name="text">
-                    <string>1280 * 960 (4:3)</string>
+                    <string>1280 * 960   (4:3)</string>
                    </property>
                   </item>
                   <item>
@@ -577,7 +630,7 @@
                   </item>
                   <item>
                    <property name="text">
-                    <string>1600 * 900 (16:9)</string>
+                    <string>1600 * 900   (16:9)</string>
                    </property>
                   </item>
                   <item>
@@ -696,7 +749,12 @@
               </widget>
              </item>
              <item>
-              <widget class="QGroupBox" name="groupBox_18">
+              <widget class="QGroupBox" name="gbTextureFilteringMode">
+               <property name="styleSheet">
+                <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+               </property>
                <property name="title">
                 <string/>
                </property>
@@ -734,7 +792,12 @@
               </widget>
              </item>
              <item>
-              <widget class="QGroupBox" name="groupBox_19">
+              <widget class="QGroupBox" name="gbMaxAFAnistropy">
+               <property name="styleSheet">
+                <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+               </property>
                <property name="title">
                 <string/>
                </property>
@@ -773,7 +836,55 @@
               </widget>
              </item>
              <item>
-              <widget class="QGroupBox" name="groupBox_21">
+              <widget class="QGroupBox" name="gbAntialiasingMode">
+               <property name="styleSheet">
+                <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+               </property>
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout">
+                <item>
+                 <widget class="QLabel" name="lAntialiasingMode">
+                  <property name="text">
+                   <string>Antialiasing mode</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QComboBox" name="cbAntialiasingMode">
+                  <property name="currentIndex">
+                   <number>1</number>
+                  </property>
+                  <item>
+                   <property name="text">
+                    <string>Disabled</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>MSAA</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>FXAA</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="gbMSAASampleCount">
+               <property name="styleSheet">
+                <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+               </property>
                <property name="title">
                 <string/>
                </property>
@@ -806,7 +917,12 @@
               </widget>
              </item>
              <item>
-              <widget class="QGroupBox" name="groupBox_20">
+              <widget class="QGroupBox" name="gbShadowmapSize">
+               <property name="styleSheet">
+                <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+               </property>
                <property name="title">
                 <string/>
                </property>
@@ -822,6 +938,9 @@
                  <widget class="QSlider" name="sShadowmapSize">
                   <property name="maximum">
                    <number>2</number>
+                  </property>
+                  <property name="value">
+                   <number>1</number>
                   </property>
                   <property name="orientation">
                    <enum>Qt::Orientation::Horizontal</enum>
@@ -839,7 +958,208 @@
               </widget>
              </item>
              <item>
-              <widget class="QGroupBox" name="groupBox_22">
+              <widget class="QGroupBox" name="gbSurfaceShadows">
+               <property name="styleSheet">
+                <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+               </property>
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_23" stretch="10,10,3">
+                <item>
+                 <widget class="QLabel" name="lSurfaceShadows">
+                  <property name="text">
+                   <string>Surface shadows</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="sSurfaceShadows">
+                  <property name="maximum">
+                   <number>4</number>
+                  </property>
+                  <property name="value">
+                   <number>2</number>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Orientation::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="vSurfaceShadows">
+                  <property name="text">
+                   <string>4</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="gbVolumetricIlluminationQuality">
+               <property name="styleSheet">
+                <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+               </property>
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_24" stretch="10,10,3">
+                <item>
+                 <widget class="QLabel" name="lVolumetricIlluminationQuality">
+                  <property name="text">
+                   <string>Volumetric illumination quality</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="sVolumetricIlluminationQuality">
+                  <property name="maximum">
+                   <number>11</number>
+                  </property>
+                  <property name="pageStep">
+                   <number>10</number>
+                  </property>
+                  <property name="value">
+                   <number>5</number>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Orientation::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="vVolumetricIlluminationQuality">
+                  <property name="text">
+                   <string>5</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="gbVolumetricIlluminationSampleCount">
+               <property name="styleSheet">
+                <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+               </property>
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_25">
+                <item>
+                 <widget class="QLabel" name="lVolumetricIlluminationSampleCount">
+                  <property name="text">
+                   <string>Volumetric illumination sample count</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QComboBox" name="cbVolumetricIlluminationSampleCount">
+                  <item>
+                   <property name="text">
+                    <string>1.0</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>1.5</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="gbAmbientOcclusionQuality">
+               <property name="styleSheet">
+                <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+               </property>
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_26" stretch="10,10,3">
+                <item>
+                 <widget class="QLabel" name="lAmbientOcclusionQuality">
+                  <property name="text">
+                   <string>Ambient occlusion quality</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="sAmbientOcclusionQuality">
+                  <property name="maximum">
+                   <number>2</number>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Orientation::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="vAmbientOcclusionQuality">
+                  <property name="text">
+                   <string>1</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="gbDepthofFieldQuality">
+               <property name="styleSheet">
+                <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+               </property>
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_27" stretch="10,10,3">
+                <item>
+                 <widget class="QLabel" name="lDepthofFieldQuality">
+                  <property name="text">
+                   <string>Depth of field quality</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="sDepthofFieldQuality">
+                  <property name="maximum">
+                   <number>4</number>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Orientation::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="vDepthofFieldQuality">
+                  <property name="text">
+                   <string>1</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="gbBloomQuality">
+               <property name="styleSheet">
+                <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+               </property>
                <property name="title">
                 <string/>
                </property>
@@ -872,7 +1192,12 @@
               </widget>
              </item>
              <item>
-              <widget class="QGroupBox" name="groupBox_23">
+              <widget class="QGroupBox" name="gbTextureQuality">
+               <property name="styleSheet">
+                <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+               </property>
                <property name="title">
                 <string/>
                </property>
@@ -905,6 +1230,47 @@
               </widget>
              </item>
              <item>
+              <widget class="QGroupBox" name="gbColorSaturation">
+               <property name="styleSheet">
+                <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+               </property>
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_28" stretch="10,10,3">
+                <item>
+                 <widget class="QLabel" name="lColorSaturation">
+                  <property name="text">
+                   <string>Color saturation</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="sColorSaturation">
+                  <property name="maximum">
+                   <number>200</number>
+                  </property>
+                  <property name="value">
+                   <number>100</number>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Orientation::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="vColorSaturation">
+                  <property name="text">
+                   <string>100</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
               <spacer name="verticalSpacer">
                <property name="orientation">
                 <enum>Qt::Orientation::Vertical</enum>
@@ -926,6 +1292,40 @@
       </layout>
      </widget>
     </item>
+    <item>
+     <widget class="QGroupBox" name="gbReset">
+      <property name="styleSheet">
+       <string notr="true">        QGroupBox {
+            border: none;
+        }</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_29">
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Orientation::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>683</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="bReset">
+         <property name="text">
+          <string>Reset</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
    </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -934,13 +1334,14 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>18</height>
+     <height>17</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuOption">
     <property name="title">
      <string>Option</string>
     </property>
+    <addaction name="actionLanguage"/>
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
@@ -951,6 +1352,11 @@
    <addaction name="menuHelp"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionLanguage">
+   <property name="text">
+    <string>Language</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
